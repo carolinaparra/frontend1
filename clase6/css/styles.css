@@ -1,0 +1,14 @@
+
+/* Comentarios*/
+h1 {color:red}
+#mas-vendidos{
+    text-align: justify
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span.article-destacado {
+    font-weight: bold;
+    color:blueviolet
+}
