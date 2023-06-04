@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: black;
+    height: 100px;
+    width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    width:234px;
+    height: 80px;
+}
+
+h1{
+    padding: 10px;
+}
+.verde{
+    color:#39B24A;
+}
+
+.blanco{
+    color:white;
+}
+
+.rojo{
+    color: #FC200C;
+}
+
+.nav-header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 19px;
+    width: 324px;
+    font-size: 16px;
+}
+
+main{
+    background-color: #F3F3F3;
+    height: 420px;
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color:#FC200C;
+    font-size: 24px;
+    padding-left: 20px;
+}
+section{
+    height: 350px;
+    width: 989px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.envio{
+    background-image: url("../img/delivery.jpg");
+    height: 350px;
+    width: 490px
+}
+
+.podio{
+    background-color: white;
+    height: 350px;
+    width: 499px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.pizzascuadro{
+    color:black;
+    height: 250px;
+    width: 391.27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ol{
+    line-height: 30px;
+    font-weight: 700;
+    padding: 0;
+    font-size: 16px;
+}
+
+footer{
+    background-color: black;
+    height: 150px;
+    width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 42px;
+}
+
+.nav-footer{
+    color:white;
+    height: 150px;
+    width: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    font-size: 16px;
+
+    
+}
